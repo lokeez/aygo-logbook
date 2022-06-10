@@ -123,7 +123,7 @@ iframe {
 }
 
 .wrap-table100 {
-  width: 1170px;
+  width: 1270px;
 }
 
 table {
@@ -193,35 +193,41 @@ tbody tr:hover {
 }
 
 .column1 {
-  width: 160px;
+  width: 10%;
   padding-left: 40px;
 }
 
 .column2 {
-  width: 160px;
+  width: 10%;
 }
 
 .column3 {
-  width: 345px;
+  width: 25%;
 }
 
 .column4 {
-  width: 110px;
+  width: 10%;
   text-align: right;
 }
 
 .column5 {
-  width: 170px;
+  width: 30%;
   padding-left: 40px;
   /*text-align: right;*/
 }
 
 .column6 {
-  width: 222px;
+  width: 25%;
   /*text-align: right;
   padding-right: 62px;*/
 }
 
+.column5 img {
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  margin: auto;
+}
 
 @media screen and (max-width: 992px) {
   table {
